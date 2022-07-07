@@ -1,0 +1,4 @@
+An Ingress is an object that allows access to your Kubernetes services from outside the Kubernetes cluster. 
+You configure access by creating a collection of rules that define which inbound connections reach which services.
+
+Kubernetes ingress is a collection of routing rules that govern how external users access services running in a Kubernetes cluster.
