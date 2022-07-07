@@ -1,0 +1,7 @@
+We can create a NodePort service using the following syntax:
+
+kubectl create service nodeport <name-of-service> --tcp=<port-of-service>:<port-of-container>
+
+To know the port, on which the service is being exposed type the following command:
+
+kubectl get svc nginx
